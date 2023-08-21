@@ -1,0 +1,48 @@
+{
+    "careers": [
+        {
+            "id": 1,
+            "title": "Senior React Developer", 
+            "salary": 90000, 
+            "location": "London"
+        },
+        {
+            "id": 2,
+            "title": "Junior React Developer",  
+            "salary": 35000, 
+            "location": "Birmingham"
+        },
+        {
+            "id": 3,
+            "title": "Python Developer", 
+            "salary": 70000, 
+            "location": "London"
+        },
+        {
+            "id": 4,
+            "title": "JavaScript Developer", 
+            "salary": 60000, 
+            "location": "London"
+        }, 
+        {
+            "id": 5,
+            "title": "DevOps Engineer",  
+            "salary": 100000, 
+            "location": "London"
+        },
+        {
+            "id": 6,
+            "title": "VueJS Developer", 
+            "salary": 80000, 
+            "location": "London"
+        },
+        {
+            "id": 7,
+            "title": "Full Stack Developer", 
+            "salary": 100000, 
+            "location": "Remote"
+        }
+    ]
+
+
+}
