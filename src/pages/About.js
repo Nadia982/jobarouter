@@ -5,8 +5,9 @@ export default function About() {
     <div className="about">
         <h2>About</h2>
             <p>
-            This job listings website was set up in 2023 using React and React Router.
+            This job listings website was set up in 2023.
             </p>
+            <p>It was created using React and React Router.</p>
     </div>
   )
 }
