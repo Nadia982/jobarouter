@@ -21,8 +21,8 @@
         {
             "id": 4,
             "title": "JavaScript Developer", 
-            "salary": 60000, 
-            "location": "London"
+            "salary": 40000, 
+            "location": "Exeter"
         }, 
         {
             "id": 5,
@@ -34,7 +34,7 @@
             "id": 6,
             "title": "VueJS Developer", 
             "salary": 80000, 
-            "location": "London"
+            "location": "Bristol"
         },
         {
             "id": 7,
