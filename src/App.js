@@ -10,12 +10,15 @@ import Home from "./pages/Home";
 import About from "./pages/About";
 import Contact from "./pages/help/Contact";
 import Faq from "./pages/help/Faq";
-import Careers, {careersLoader} from '../src/pages/careers/Careers'
+import Careers, { careersLoader } from "../src/pages/careers/Careers";
+import NotFound from "./pages/NotFound";
+import CareerDetails, {
+  careerDetailsLoader,
+} from "./pages/careers/CareerDetails";
 
 //layouts
 import RootLayout from "./layouts/RootLayout";
 import HelpLayout from "./layouts/HelpLayout";
-import NotFound from "./pages/NotFound";
 import CareersLayout from "./layouts/CareersLayout";
 
 const router = createBrowserRouter(
@@ -27,11 +30,15 @@ const router = createBrowserRouter(
         <Route path="faq" element={<Faq />} />
         <Route path="contact" element={<Contact />} />
       </Route>
-      <Route path="careers" element={<CareersLayout />} >
-        <Route 
-        index 
-        element={<Careers/>}
-        loader={careersLoader}
+
+      <Route path="careers" element={<CareersLayout />}>
+        <Route index 
+        element={<Careers />} 
+        loader={careersLoader} />
+        <Route
+          path=":id"
+          element={<CareerDetails />}
+            loader={careerDetailsLoader}
         />
       </Route>
       <Route path="*" element={<NotFound />} />
