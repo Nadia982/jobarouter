@@ -151,7 +151,7 @@ button:hover {
   opacity: 0.7;
 }
 
-.home-link {
+.cta-link {
   background-color: var(--primary); 
   text-decoration: none;
   padding: 6px 12px;
@@ -160,7 +160,7 @@ button:hover {
   display: inline-block;  
 }
 
-.home-link:hover {
+.cta-link:hover {
   opacity: 0.7;
 }
 
@@ -200,3 +200,7 @@ button:hover {
   margin: 20px 0;
 }
 
+
+.page-subheading {
+margin-top: 40px;
+}

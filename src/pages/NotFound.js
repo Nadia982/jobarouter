@@ -5,7 +5,7 @@ export default function NotFound() {
     <div>
         <h2>Page not found!</h2>
         <p>Please return to the home page to get back on track:</p>
-        <Link className="home-link" to="/">Return to home</Link>
+        <Link className="cta-link" to="/">Return to home</Link>
     </div>
   )
 }
